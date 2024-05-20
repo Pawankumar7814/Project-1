@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+
+body {
+    background: linear-gradient(lightgreen,green);
+    height: 100vh;
+}
+
+.width-50{
+    width: 50%;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 6px;
+    width: 85%;
+    padding: 10px;
+}
+
+h1 {
+    color: green;
+    font-size: 21px;
+    margin: 10px 0px;
+}
