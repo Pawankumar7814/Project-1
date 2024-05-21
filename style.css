@@ -63,6 +63,10 @@ h1 {
     color: #bee1b5;
 }
 
+.form-container{
+    margin: 18px;
+}
+
 .btn {
     width: 100%;
     font: 400;
@@ -78,6 +82,10 @@ h1 {
     color: white;  
     background-color: #2d7530;
     outline: none;
+}
+
+.age-Container{
+    display: flexbox;
 }
 
 @media (max-width:1224px) {

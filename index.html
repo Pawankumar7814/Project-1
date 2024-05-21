@@ -10,74 +10,81 @@
 
 <body class="flex justify-content-center align-items-center">
     <main class="card">
-        <h1>Survey Form</h1>
-        <p>Feel Free to Answer The Question Below Based On Your Own
-            Experience And Opinion. If You Are Not Convenient In Answering A
-            Particular Question Please Skip It By Answering "No". Every
-            Answer Would Be Appreciated. Thank You For Your Time</p>
-        <div class="flex flex-wrap">
-            <div class="width-50">
-                <div class="form-group">
-                    <label for="name">Your Name</label>
-                    <input type="text" class="text_class" name="name" id="name" placeholder="Enter Your Name">
+        <form action="">
+            <h1>Survey Form</h1>
+            <p>Feel Free to Answer The Question Below Based On Your Own
+                Experience And Opinion. If You Are Not Convenient In Answering A
+                Particular Question Please Skip It By Answering "No". Every
+                Answer Would Be Appreciated. Thank You For Your Time</p>
+            <div class="flex flex-wrap">
+                <div class="width-50">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="text_class" name="name" id="name" placeholder="Enter Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Your Email Address</label>
+                        <input type="text" class="text_class" name="name" id="name" placeholder="Enter Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Your Phone Number</label>
+                        <input type="text" class="text_class" name="name" id="name" placeholder="Enter Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Where do you live?</label>
+                        <select name id class="text_class">
+                            <option value="0">Select</option>
+                            <option value="1">Delhi</option>
+                            <option value="2">Haryana</option>
+                            <option value="3">Punjab</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="age" class="age-Container">Age
+                            <label for="optiona"><input type="radio" name="ageRange" checked id="optiona"> 15 - 20
+                            </label>
+                            <label for="optionb"><input type="radio" name="ageRange" id="optionb"> 20 - 30 </label>
+                            <label for="optionc"><input type="radio" name="ageRange" id="optionc"> 30 - 40 </label>
+                            <label for="optiond"><input type="radio" name="ageRange" id="optiond"> 40 - 50 </label>
+                            <label for="optione"><input type="radio" name="ageRange" id="optione"> Prefet not to say
+                            </label>
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for>How would you rate yourself in coding</label>
+                        <label for="Beginner"><input type="radio" name="levels" checked id="Beginner"> Beginner </label>
+                        <label for="Intermediate"><input type="radio" name="levels" id="Intermediate"> Intermediate
+                        </label>
+                        <label for="Advance"><input type="radio" name="levels" id="Advance"> Advance </label>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="name">Your Email Address</label>
-                    <input type="text" class="text_class" name="name" id="name" placeholder="Enter Your Name">
-                </div>
-                <div class="form-group">
-                    <label for="name">Your Phone Number</label>
-                    <input type="text" class="text_class" name="name" id="name" placeholder="Enter Your Name">
-                </div>
-                <div class="form-group">
-                    <label for="name">Where do you live?</label>
-                    <select name id class="text_class">
-                        <option value="0">Select</option>
-                        <option value="1">Delhi</option>
-                        <option value="2">Haryana</option>
-                        <option value="3">Punjab</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="age">Age</label>
-                    <label for="optiona"><input type="radio" name="ageRange" checked id="optiona"> 15 - 20 </label>
-                    <label for="optionb"><input type="radio" name="ageRange" id="optionb"> 20 - 30 </label>
-                    <label for="optionc"><input type="radio" name="ageRange" id="optionc"> 30 - 40 </label>
-                    <label for="optiond"><input type="radio" name="ageRange" id="optiond"> 40 - 50 </label>
-                    <label for="optione"><input type="radio" name="ageRange" id="optione"> Prefet not to say </label>
-                </div>
-                <div class="form-group">
-                    <label for>How would you rate yourself in coding</label>
-                    <label for="Beginner"><input type="radio" name="levels" checked id="Beginner"> Beginner </label>
-                    <label for="Intermediate"><input type="radio" name="levels" id="Intermediate"> Intermediate
-                    </label>
-                    <label for="Advance"><input type="radio" name="levels" id="Advance"> Advance </label>
+                <div class="width-50">
+                    <div class="form-group">
+                        <label for>How You Ever Appeared in Any Coding
+                            contest?</label>
+                        <label for="Yes"><input type="radio" name="Yes/No" id="Yes" checked> Yes </label>
+                        <label for="No"><input type="radio" name="Yes/No" id="No"> No </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Discuss what drives your passion for coding and outline your aspirations in
+                            the
+                            field.</label>
+                        <textarea name="" id="" rows="3" class="text_class"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">What are some the challenges you face in coding?</label>
+                        <textarea name="" id="" rows="3" class="text_class"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Please list the Data Structures you have a strong understanding of.</label>
+                        <textarea name="" id="" rows="3" class="text_class"></textarea>
+                    </div>
+                    <div>
+                        <button class="btn btn-success">Submit Form</button>
+                    </div>
                 </div>
             </div>
-            <div class="width-50">
-                <div class="form-group">
-                    <label for>How You Ever Appeared in Any Coding
-                        contest?</label>
-                    <label for="Yes"><input type="radio" name="Yes/No" id="Yes" checked> Yes </label>
-                    <label for="No"><input type="radio" name="Yes/No" id="No"> No </label>
-                </div>
-                <div class="form-group">
-                    <label for="name">Discuss what drives your passion for coding and outline your aspirations in the field.</label>
-                    <textarea name="" id="" rows="3" class="text_class"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="name">What are some the challenges you face in coding?</label>
-                    <textarea name="" id="" rows="3" class="text_class"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="name">Please list the Data Structures you have a strong understanding of.</label>
-                    <textarea name="" id="" rows="3" class="text_class"></textarea>
-                </div>
-                <div>
-                    <button class="btn btn-success">Submit Form</button>
-                </div>
-            </div>
-        </div>
+        </form>
     </main>
 </body>
 
