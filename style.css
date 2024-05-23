@@ -9,6 +9,10 @@ body {
     height: 100vh;
 }
 
+main{
+    margin: 40px;
+}
+
 .width-50 {
     width: 500px;
 }
@@ -60,7 +64,7 @@ h1 {
 }
 
 ::placeholder {
-    color: #bee1b5;
+    color: #4b664a;
 }
 
 .form-container{
@@ -84,11 +88,29 @@ h1 {
     outline: none;
 }
 
-.age-Container{
-    display: flexbox;
+#age-container {
+    border: 1px solid;
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    position: relative;
+    padding: 0px 13px;
+    width: 67%;
 }
 
-@media (max-width:1224px) {
+.age-label {
+    position: absolute;
+    bottom: 82px;
+    left: 13px;
+    background: white;
+    width: 30px;
+    margin: 4px 5px;
+}
+
+/* @media (max-width:1224px) {
     body{
         height: auto;
         padding: 18px 36px;
@@ -97,4 +119,4 @@ h1 {
     .card{
         width: 50%;
     }
-}
+} */
