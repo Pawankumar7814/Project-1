@@ -1,113 +1,113 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
 }
 
 body {
-    background: linear-gradient(lightgreen, green);
-    height: 100vh;
+  background: radial-gradient(lightgreen, green);
+  /* height: 100vh; */
 }
 
-main{
-    margin: 40px;
+main {
+  margin: 40px;
 }
 
 .width-50 {
-    width: 500px;
+  width: 500px;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .flex-wrap {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .justify-content-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .align-items-center {
-    align-items: center;
+  align-items: center;
 }
 
 .card {
-    background-color: white;
-    border-radius: 6px;
-    width: 85%;
-    padding: 10px;
+  background-color: white;
+  border-radius: 6px;
+  width: 85%;
+  padding: 10px;
 }
 
 h1 {
-    color: #276521;
-    font-size: 21px;
-    margin: 10px 0px;
+  color: #276521;
+  font-size: 21px;
+  margin: 10px 0px;
+}
+
+.form-container {
+  padding: 15px;
 }
 
 .form-group {
-    margin: 10px 0px;
+  margin: 10px 0px;
 }
 
 .form-group label {
-    display: block;
-    font-weight: bold;
-    margin: 5px 0px;
+  display: block;
+  font-weight: bold;
+  margin: 5px 0px;
 }
 
 .form-group .text_class {
-    padding: 5px;
-    width: 70%;
-    min-width: 60%;
-    max-width: 80%;
+  padding: 5px;
+  width: 70%;
+  min-width: 60%;
+  max-width: 80%;
 }
 
 ::placeholder {
-    color: #4b664a;
-}
-
-.form-container{
-    margin: 18px;
+  color: #4b664a;
 }
 
 .btn {
-    width: 100%;
-    font: 400;
-    cursor: pointer;
-    padding: 10px;
-    text-align: center;
-    border-radius: 3px;
-    outline: none;
-    border: none;
+  width: 100%;
+  font: 400;
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+  border-radius: 3px;
+  outline: none;
+  border: none;
 }
 
 .btn-success {
-    color: white;  
-    background-color: #2d7530;
-    outline: none;
+  color: white;
+  background-color: #2d7530;
+  outline: none;
 }
 
 #age-container {
-    border: 1px solid;
-    height: 94px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: stretch;
-    justify-content: center;
-    position: relative;
-    padding: 0px 13px;
-    width: 67%;
+  border: 1px solid;
+  height: 94px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: center;
+  position: relative;
+  padding: 0px 13px;
+  width: 67%;
 }
 
 .age-label {
-    position: absolute;
-    bottom: 82px;
-    left: 13px;
-    background: white;
-    width: 30px;
-    margin: 4px 5px;
+  position: absolute;
+  bottom: 82px;
+  left: 13px;
+  background: white;
+  width: 30px;
+  margin: 4px 5px;
 }
 
 /* @media (max-width:1224px) {
